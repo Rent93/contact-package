@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rent\\Contact\\JokeServiceProvider"
+                "Rent\\Contact\\ContactServiceProvider"
             ]
         }
     }

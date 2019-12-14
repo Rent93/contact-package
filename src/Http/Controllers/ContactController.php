@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Rent\Contact\Models\Contact;
 
-class JokeController extends Controller {
+class ContactController extends Controller {
     public function index() {
         return view('contact::contact');
     }
