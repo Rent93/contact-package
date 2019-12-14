@@ -1,0 +1,26 @@
+{
+    "name": "rent/contact",
+    "description": "Allow users can send email to admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rent",
+            "email": "tuan.ltv.110893@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rent\\Joke\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rent\\Contact\\JokeServiceProvider"
+            ]
+        }
+    }
+}
